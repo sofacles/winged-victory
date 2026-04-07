@@ -30,19 +30,48 @@ body {
   width: 100vw;
 
   p {
-    margin: 10vh 20vh 2vh;
+    margin: 5vh;
   }
 
   p.nth-paragraph {
-    margin-top: 2vh;
+    margin-top: 1.6vh;
+  }
+
+  .plain {
+    font-family: Times New Roman, Times, serif;
+    color: #3300FF;
+
   }
 
   .photo-credit {
     position: absolute;
     bottom: 60px;
     right: 30px;
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.5rem;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
     cursor: default;
   }
+
+  @media (min-width: 1024px) {
+
+    /* laptop and above */
+
+    p {
+      margin: 10vh 20vh 2vh;
+    }
+
+
+    .photo-credit {
+      position: absolute;
+      bottom: 10vh;
+      right: 10vh;
+      font-size: 0.6rem;
+      text-decoration: underline;
+      font-family: 'Times New Roman', Times, serif;
+      cursor: default;
+    }
+  }
+
+
 }

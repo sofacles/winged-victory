@@ -15,11 +15,14 @@ export default function Home() {
 
           I am quick, clean, reliable and I guarantee my work for 2 years.
         </p>
+        <p className="nth-paragraph">
+          Schedule a free estimate at <span className="plain">(206) 458-5489</span> or via <span className="plain">sdegermark@gmail.com</span>!
+        </p>
         <span
           title="Louvre CC0, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
           className="photo-credit"
         >
-          📷
+          photo credit
         </span>
       </div>
 
