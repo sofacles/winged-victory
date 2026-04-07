@@ -4,11 +4,23 @@ export default function Home() {
   return (
     <div className="bg-white">
       <div className="nike">
-        <h1>Winged Victory Painting</h1>
+        <h1>Samothrace Painting</h1>
         <p>
-          I specialize in interior painting and finishing.  I'm cheap because I'm actually a software engineer who used to work in a furniture finishing shop and painted apartments on the side.
-          I received good training at the finishing shop, and can see mistakes that other people miss.  So, I won't be cheap for long... or at least that's my plan.  I guarantee my work for 2 years.
+          I specialize in interior painting and finishing.  I'm a good value for landlords, apartment managers and homeowners because I'm returning to painting after 20 years of software engineering and need to build up a
+          portfolio of work.
         </p>
+        <p className="nth-paragraph">
+          I was trained at C.M. Miller Finishing and Design in Ballard where I learned to strip, bleach, stain and varnish in addition to painting.
+          I received good training from Chris, and can see and fix mistakes that other people miss.
+
+          I am quick, clean, reliable and I guarantee my work for 2 years.
+        </p>
+        <span
+          title="Louvre CC0, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+          className="photo-credit"
+        >
+          📷
+        </span>
       </div>
 
     </div>
